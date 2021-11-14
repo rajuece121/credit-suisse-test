@@ -16,7 +16,7 @@ import java.time.Instant;
 @SpringBootApplication
 public class LogAnalyser implements CommandLineRunner {
     private static final Logger LOGGER = LoggerFactory.getLogger(LogAnalyser.class);
-
+ 
     @Autowired
     private LogAnalyserService service;
 
